@@ -11,7 +11,9 @@ if unknown:raise ValueError('Untranslated corporate text: '+repr(sorted(unknown)
 # Complete the French journey while keeping each English switch on its actual counterpart.
 reverse={fr:en for en,fr in route_map.items()}
 for p in list((P/'fr').rglob('*.html'))+[P/'services-de-nettoyage.html',P/'demande-de-devis.html']:
- route='/'+str(p.relative_to(P))[:-5];en=reverse[route];s=p.read_text()
+ route='/'+str(p.relative_to(P))[:-5]
+ if route not in reverse:continue
+ en=reverse[route];s=p.read_text()
  def local_link(m):
   tag=m.group()
   if 'language-switch' in tag:return re.sub(r'href="[^"]*"','href="'+en+'"',tag)

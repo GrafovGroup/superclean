@@ -83,3 +83,4 @@ for route in ['/', '/services', '/contact', '/services-de-nettoyage', '/fr/servi
  loc='<loc>https://superclean.ca'+route+'</loc>'
  s=re.sub(re.escape(loc)+r'(?:<lastmod>.*?</lastmod>)?',loc+'<lastmod>2026-10-26</lastmod>',s)
 p.write_text(s)
+exec(compile((P.parent/'scripts/clean-image-labels.py').read_text(), str(P.parent/'scripts/clean-image-labels.py'), 'exec'))

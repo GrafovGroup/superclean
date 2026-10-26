@@ -132,3 +132,15 @@ html[lang="fr-CA"] .home-hero h1{font-size:clamp(36px,4.1vw,58px)}
 .home-sector-grid img,.home-product-photo{aspect-ratio:4/3;object-fit:cover}
 @media(max-width:1020px){.mega-groups{grid-template-columns:repeat(2,minmax(0,1fr))}.quote-page .contact-layout{grid-template-columns:1fr;gap:22px}.quote-page .contact-layout aside{order:2}.quote-page .contact-layout form{order:1}.home-hero{padding-top:12px;padding-bottom:30px}}
 @media(max-width:600px){.home-hero h1,html[lang="fr-CA"] .home-hero h1{font-size:38px;overflow-wrap:normal}.quote-page .form-grid,.optional-grid{grid-template-columns:1fr}.quote-page .form-grid>label:has(input[name="phone"]){max-width:none}.quote-page .page-intro{padding-top:16px;padding-bottom:22px}.quote-page #quote-submit{width:100%;justify-content:space-between}.category-jumps{gap:8px}.category-jumps a{font-size:13px;padding:10px 12px}.mega-groups{grid-template-columns:1fr}.home-hero .actions{display:flex;flex-wrap:wrap;gap:16px}.home-hero .actions .button{min-height:52px}}
+
+/* Owner-requested 30% logo enlargement, with responsive room for navigation. */
+.header .wordmark{width:351px}
+.footer-top .wordmark img{width:312px;max-width:100%;height:auto}
+@media(min-width:1021px) and (max-width:1250px){.header{flex-wrap:wrap;justify-content:center;gap:12px}.header nav{width:100%;justify-content:center;padding-bottom:10px}}
+@media(max-width:1020px){.header .wordmark{width:468px;max-width:calc(100% - 112px)}}
+@media(max-width:800px){.footer-top .wordmark img{width:286px}}
+@media(max-width:420px){.header{row-gap:4px}.header .wordmark{width:364px;max-width:100%;flex-basis:100%;justify-content:center}.header .wordmark img{max-width:100%}.header .menu-toggle{margin-left:auto}.footer-top .wordmark img{max-width:100%}}
+/* Compact language switch in the top contact bar. */
+.utility .wrap>.language-switch{margin-left:8px;padding:6px 10px;min-height:32px;min-width:36px;justify-content:center;border-left:1px solid #ffffff55;font-size:12px!important;font-weight:600;letter-spacing:.04em}
+.utility .wrap>a[href^="tel:"]{margin-left:auto}
+@media(max-width:420px){.utility .wrap>.language-switch{padding:6px 7px;margin-left:2px;min-width:30px;font-size:11px!important}.utility .wrap{gap:3px}}
