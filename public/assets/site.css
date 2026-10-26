@@ -81,3 +81,8 @@
 .language-switch{font-size:12px!important;text-transform:none!important}
 @media(min-width:1021px){.header .wordmark{width:270px}.header nav{gap:16px}.header nav>.button{padding-inline:16px;gap:12px}}
 @media(max-width:420px){.utility .wrap{gap:5px}.utility .wrap>span{font-size:8px}.utility a{font-size:10px}}
+
+html[lang="fr-CA"] h1,html[lang="fr-CA"] h2,html[lang="fr-CA"] h3{overflow-wrap:break-word;hyphens:auto}
+
+.utility .wrap>span{white-space:nowrap}
+@media(max-width:360px){.utility .wrap>span{font-size:7px}.utility a{font-size:9px;gap:3px}.utility .phone{font-size:10px}}

@@ -4,7 +4,7 @@ menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded'
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){if(servicesMenu?.open){servicesMenu.open=false;servicesMenu.querySelector('summary').focus()}else if(nav?.classList.contains('open')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus()}}});
 document.addEventListener('click',ev=>{if(servicesMenu?.open&&!servicesMenu.contains(ev.target))servicesMenu.open=false});
 const search=document.querySelector('#service-search');
-search?.addEventListener('input',()=>{let count=0;const q=search.value.toLowerCase().trim();document.querySelectorAll('.service-item').forEach(a=>{a.hidden=!a.textContent.toLowerCase().includes(q);if(!a.hidden)count++});document.querySelectorAll('#service-directory .section').forEach(s=>{s.hidden=![...s.querySelectorAll('.service-item')].some(a=>!a.hidden)});document.querySelector('#search-status').textContent=count?`${count} services found`:'No matching services. Try another term or contact us.'});
+search?.addEventListener('input',()=>{let count=0;const q=search.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();document.querySelectorAll('.service-item').forEach(a=>{a.hidden=!a.textContent.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q);if(!a.hidden)count++});document.querySelectorAll('#service-directory .section').forEach(s=>{s.hidden=![...s.querySelectorAll('.service-item')].some(a=>!a.hidden)});document.querySelector('#search-status').textContent=document.documentElement.lang.startsWith('fr')?(count?`${count} services trouvés`:'Aucun service correspondant. Essayez un autre terme ou contactez-nous.'):(count?`${count} services found`:'No matching services. Try another term or contact us.')});
 const form=document.querySelector('#quote-form');
 if(form){
  document.querySelector('.mobile-contact')?.remove();
@@ -34,7 +34,7 @@ if(form){
   }finally{clearTimeout(timer);pending=false;form.removeAttribute('aria-busy');submit.disabled=completed;submit.textContent=completed?copy.done:copy.send;}
  });
 }
-document.querySelectorAll('.city-finder').forEach(f=>f.addEventListener('submit',ev=>{ev.preventDefault();if(f.reportValidity())location.href='/contact?'+new URLSearchParams(new FormData(f)).toString()}));
+document.querySelectorAll('.city-finder').forEach(f=>f.addEventListener('submit',ev=>{ev.preventDefault();if(f.reportValidity())location.href=(f.getAttribute('action')||'/contact')+'?'+new URLSearchParams(new FormData(f)).toString()}));
 document.querySelectorAll('.city-finder[data-local-routes]').forEach(f=>{
  const routes=JSON.parse(f.dataset.localRoutes),details=f.querySelector('.local-service-link');
  if(!details)return;
@@ -46,7 +46,7 @@ document.querySelectorAll('.city-finder[data-local-routes]').forEach(f=>{
 });
 const citySearch=document.querySelector('#city-search');
 const normalizeCity=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-citySearch?.addEventListener('input',()=>{const q=normalizeCity(citySearch.value.trim());let count=0;document.querySelectorAll('.market-group').forEach(group=>{const province=normalizeCity(group.querySelector('h3').textContent);let visible=0;group.querySelectorAll('.market-link').forEach(a=>{a.hidden=!(normalizeCity(a.textContent).includes(q)||province.includes(q));if(!a.hidden){visible++;count++}});group.hidden=visible===0});document.querySelector('#city-status').textContent=count?`${count} markets found`:'No matching market. Use the contact form to enter your municipality.'});
+citySearch?.addEventListener('input',()=>{const q=normalizeCity(citySearch.value.trim());let count=0;document.querySelectorAll('.market-group').forEach(group=>{const province=normalizeCity(group.querySelector('h3').textContent);let visible=0;group.querySelectorAll('.market-link').forEach(a=>{a.hidden=!(normalizeCity(a.textContent).includes(q)||province.includes(q));if(!a.hidden){visible++;count++}});group.hidden=visible===0});document.querySelector('#city-status').textContent=document.documentElement.lang.startsWith('fr')?(count?`${count} municipalités trouvées`:'Aucune municipalité correspondante. Indiquez votre ville dans le formulaire de demande.'):(count?`${count} markets found`:'No matching market. Use the contact form to enter your municipality.')});
 const enquiryCity=new URLSearchParams(location.search).get('city');if(enquiryCity)document.querySelectorAll('.city-finder select[name=city]').forEach(select=>{if([...select.options].some(o=>o.value===enquiryCity))select.value=enquiryCity});
 document.querySelectorAll('.city-finder[data-local-routes]').forEach(f=>f.dispatchEvent(new Event('change')));
 

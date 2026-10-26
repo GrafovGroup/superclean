@@ -4,7 +4,7 @@ import path from 'node:path';
 import worker from '../dist/server/index.js';
 const types={'.css':'text/css','.js':'application/javascript','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.ttf':'font/ttf'};
 http.createServer(async(req,res)=>{try{
- if(req.url==='/__qa'){res.setHeader('Content-Type','text/html');res.end('<h1>Mobile preview: 375 px</h1><iframe title="Mobile contact" src="/contact" width="375" height="900"></iframe><iframe title="French mobile" src="/demande-de-devis" width="375" height="900"></iframe>');return;}
+ if(req.url==='/__qa'){res.setHeader('Content-Type','text/html');res.end('<h1>French responsive review</h1><iframe title="French service 320" src="/fr/services/depoussierage-en-hauteur/toronto" width="320" height="900"></iframe><iframe title="French regions 375" src="/fr/regions" width="375" height="900"></iframe><iframe title="French directory 768" src="/fr/services" width="768" height="900"></iframe>');return;}
  const origin='http://'+req.headers.host;
  const request=new Request(new URL(req.url,origin),{method:req.method});
  const response=await worker.fetch(request,{ASSETS:{fetch:async(r)=>{const p=path.resolve('public','.'+new URL(r.url).pathname);if(!p.startsWith(path.resolve('public/assets')+'/'))return new Response('',{status:404});try{return new Response(await fs.readFile(p),{headers:{'Content-Type':types[path.extname(p)]||'application/octet-stream'}})}catch{return new Response('',{status:404})}}}});
