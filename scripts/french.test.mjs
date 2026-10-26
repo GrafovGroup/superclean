@@ -4,8 +4,8 @@ import fs from 'node:fs';
 import worker from '../dist/server/index.js';
 const routes=JSON.parse(fs.readFileSync('content/language-routes.json','utf8'));
 const read=p=>fs.readFileSync('public'+p+'.html','utf8');
-test('all 292 French counterparts resolve with reciprocal language metadata and equivalent indexing',async()=>{
- assert.equal(Object.keys(routes).length,292);const sitemap=fs.readFileSync('public/sitemap.xml','utf8');
+test('all 324 French counterparts resolve with reciprocal language metadata and equivalent indexing',async()=>{
+ assert.equal(Object.keys(routes).length,324);const sitemap=fs.readFileSync('public/sitemap.xml','utf8');
  for(const [en,fr] of Object.entries(routes)){
   const english=read(en),french=read(fr);const response=await worker.fetch(new Request('https://superclean.ca'+fr),{});
   assert.equal(response.status,200,fr);assert.ok(french.includes('<html lang="fr-CA">'),fr);
@@ -24,4 +24,28 @@ test('French city finder routes use translated service names and existing French
   for(const [,action] of h.matchAll(/<form[^>]+action="([^"]+)"/g))assert.equal(action,'/demande-de-devis');
  }
  const regions=read('/fr/regions');assert.equal((regions.match(/class="market-link"/g)||[]).length,84);
+});
+
+
+test('French catalogue preserves model ranges and product imagery with translated quote context',()=>{
+ const productRoutes=Object.entries(routes).filter(([en])=>en.startsWith('/products/'));
+ assert.equal(productRoutes.length,23);
+ for(const [en,fr] of productRoutes){
+  const a=read(en),b=read(fr);
+  const models=h=>(h.match(/<ul class="model-list">([\s\S]*?)<\/ul>/)?.[1]||'').replace('Frost push-button dispenser','Distributeur Frost à bouton-poussoir');
+  assert.equal(models(a),models(b),en);
+  const images=h=>[...h.matchAll(/<img[^>]+src="([^"]+)"/g)].map(x=>x[1]);
+  for(const src of images(a))assert.ok(images(b).includes(src),src);
+  const query=b.match(/href="(\/demande-de-devis\?[^"]+)"/)[1];
+  const u=new URL(query.replaceAll('&amp;','&'),'https://superclean.ca');
+  assert.ok(u.searchParams.get('service').startsWith('Produit : '),fr);
+ }
+ const industryRoutes=Object.entries(routes).filter(([en])=>en.startsWith('/industries/'));
+ assert.equal(industryRoutes.length,7);
+ for(const [en,fr] of industryRoutes){
+  const h=read(fr);assert.ok(h.includes('/assets/industry-'+en.split('/').pop()+'-fr.svg'));
+  const svg=fs.readFileSync('public/assets/industry-'+en.split('/').pop()+'-fr.svg','utf8');
+  assert.ok(svg.includes('LES POINTS ESSENTIELS'));assert.ok(!svg.includes('SCOPE AT A GLANCE'));
+  for(const [,url] of h.matchAll(/href="([^"]+)"/g))assert.ok(!url.startsWith('/services/'),fr+' -> '+url);
+ }
 });
