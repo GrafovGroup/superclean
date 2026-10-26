@@ -5,7 +5,7 @@ products={};industries={};phrases={};allowed=set();image_titles={}
 def plain(s):return html.unescape(re.sub('<[^>]+>','',s)).strip()
 def add(a,b):
  a=plain(a);phrases[a]=b;phrases[a.upper()]=b.upper();allowed.add(b);allowed.add(b.upper())
-def main_source(en):return re.search(r'<main[^>]*>(.*?)</main>',(P/(en.lstrip('/')+'.html')).read_text(),re.S).group(1)
+def main_source(en):return re.search(r'<main[^>]*>(.*?)</main>',(P/('index.html' if en=='/' else en.lstrip('/')+'.html')).read_text(),re.S).group(1)
 for line in (ROOT/'content/products-fr.tsv').read_text().splitlines():
  key,title,desc,bullets,note=line.split('|');products[key]={'title':title,'desc':desc,'bullets':bullets.split(';'),'note':note}
  en='/products/'+key;route_map[en]='/fr/produits/'+slug(title);m=main_source(en)
@@ -95,7 +95,10 @@ class Translator(HTMLParser):
    out.append(k if v is None else k+'="'+esc(v)+'"')
   self.out.append('<'+tag+(' '+ ' '.join(out) if out else '')+'>')
  def handle_endtag(self,tag):self.out.append('</'+tag+'>')
- def handle_data(self,data):self.out.append(esc(translate(data)))
+ def handle_data(self,data):
+  value=translate(data)
+  prefix=data[:len(data)-len(data.lstrip())];suffix=data[len(data.rstrip()):]
+  self.out.append(esc(prefix+value.strip()+suffix) if data.strip() else data)
  def handle_comment(self,data):self.out.append('<!--'+data+'-->')
 def translated(en,title,headline=None):
  m=main_source(en)

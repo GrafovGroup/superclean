@@ -32,7 +32,7 @@ css=hashlib.sha256((P/'assets/site.css').read_bytes()).hexdigest()[:12]
 js=hashlib.sha256((P/'assets/site.js').read_bytes()).hexdigest()[:12]
 # Keep the original indexing policy. Thin/local variants are not newly promoted into search.
 def policy(en):
- h=(P/(en.lstrip('/')+'.html')).read_text()
+ h=(P/('index.html' if en=='/' else en.lstrip('/')+'.html')).read_text()
  return re.search(r'<meta name="robots" content="([^"]+)"',h).group(1)
 def button(service='',city='',label='Demander un devis'):
  q={k:v for k,v in [('service',service),('city',city)] if v}
@@ -42,23 +42,23 @@ def links(items,cls='linkrows'):
 def section(eyebrow,title,body):return f'<section class="section wrap"><p class="eyebrow">{esc(eyebrow)}</p><h2>{esc(title)}</h2>{body}</section>'
 def page(en,title,description,body):
  fr=route_map[en]; robots=policy(en)
- category,category_name=('/fr/produits','Produits') if en.startswith('/products') else ('/fr/secteurs','Secteurs') if en.startswith('/industries') else ('/fr/services','Services') if en.startswith('/services') else ('/fr/regions','Régions')
+ category,category_name=('/fr/produits','Produits') if en.startswith('/products') else ('/fr/secteurs','Secteurs') if en.startswith('/industries') else ('/fr/services','Services') if en.startswith('/services') else ('/fr/regions','Régions') if en.startswith('/locations') else ('/fr/ressources','Ressources') if en.startswith('/resources') else ('/fr/solutions-entreprises','Solutions pour entreprises') if en.startswith('/business-solutions') else ('/services-de-nettoyage','Superclean')
  schema=[{'@context':'https://schema.org','@type':'Organization','@id':'https://superclean.ca/#organization','name':'Superclean Canada Inc.','url':'https://superclean.ca','telephone':'+18338778737','email':'get@superclean.ca'},{'@context':'https://schema.org','@type':'WebPage','name':title,'url':'https://superclean.ca'+fr,'inLanguage':'fr-CA'}]
  content=f'''<!doctype html><html lang="fr-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Superclean Canada</title><meta name="description" content="{esc(description)}"><meta name="robots" content="{esc(robots)}"><link rel="canonical" href="https://superclean.ca{fr}"><link rel="alternate" hreflang="en-CA" href="https://superclean.ca{en}"><link rel="alternate" hreflang="fr-CA" href="https://superclean.ca{fr}"><meta property="og:title" content="{esc(title)} | Superclean Canada"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="fr_CA"><meta property="og:url" content="https://superclean.ca{fr}"><meta property="og:image" content="https://superclean.ca/assets/social-card.png"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1D3450"><link rel="icon" href="/assets/original-favicon.svg" type="image/svg+xml"><link rel="preload" href="/assets/dm-sans.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/site.css?v={css}"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script><script src="/assets/measurement.js" defer></script><script src="/assets/site.js?v={js}" defer></script></head><body>
 <a class="skip" href="#main">Aller au contenu</a><div class="utility"><div class="wrap"><span>SUPERCLEAN CANADA INC.</span><a href="tel:+18338778737">Parlons-en <span class="phone">(833) 877-8737</span> ↗</a></div></div>
 <header class="header wrap"><a class="wordmark" href="/services-de-nettoyage" aria-label="Accueil Superclean"><img src="/assets/original-logo.png" width="1680" height="280" alt="Superclean"></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span>☰</span></button><nav id="main-nav" aria-label="Navigation principale"><a class="language-switch" lang="en-CA" hreflang="en-CA" href="{en}">English</a><a href="/fr/services">Services</a><a href="/fr/regions">Régions</a><a href="/fr/produits">Produits</a><a href="/fr/secteurs">Secteurs</a>{button()}</nav></header>
 <nav class="breadcrumbs wrap" aria-label="Fil d’Ariane"><a href="/services-de-nettoyage">Accueil</a><span aria-hidden="true">/</span><a href="{category}">{category_name}</a><span aria-hidden="true">/</span><span>{esc(title)}</span></nav><main id="main">{body}</main>
 <section class="cta"><div class="wrap"><div><p class="eyebrow">PARLONS DE VOS BESOINS</p><h2>Un devis adapté<br>à votre établissement.</h2></div>{button()}</div></section>
-<footer class="wrap"><div class="footer-top"><div><a class="wordmark" href="/services-de-nettoyage"><img src="/assets/original-logo.png" width="1680" height="280" alt="Superclean"></a><p>Nettoyage commercial, services spécialisés<br>et fournitures pour vos locaux.</p><a href="tel:+18338778737">(833) 877-8737 ↗</a><br><a href="mailto:get@superclean.ca">get@superclean.ca ↗</a></div><div><h3>Découvrir</h3><a href="/fr/services">Services</a><a href="/fr/regions">Régions</a><a href="/fr/produits">Produits</a><a href="/fr/secteurs">Secteurs</a><a href="/demande-de-devis">Demander un devis</a></div><div><h3>Autres renseignements</h3><a href="/safety" lang="en-CA">Sécurité (en anglais)</a></div><div><h3>Votre établissement</h3><p>La disponibilité, la méthode et le calendrier sont confirmés pour chaque adresse.</p></div></div><div class="footer-bottom"><span>© 2026 Superclean Canada Inc.</span><div><a href="/privacy">Confidentialité (en anglais)</a><a href="/terms">Conditions (en anglais)</a></div></div></footer><div class="mobile-contact" aria-label="Contact rapide"><a href="tel:+18338778737">Appeler Superclean</a><a href="/demande-de-devis">Demander un devis ↗</a></div></body></html>'''
+<footer class="wrap"><div class="footer-top"><div><a class="wordmark" href="/services-de-nettoyage"><img src="/assets/original-logo.png" width="1680" height="280" alt="Superclean"></a><p>Nettoyage commercial, services spécialisés<br>et fournitures pour vos locaux.</p><a href="tel:+18338778737">(833) 877-8737 ↗</a><br><a href="mailto:get@superclean.ca">get@superclean.ca ↗</a></div><div><h3>Découvrir</h3><a href="/fr/services">Services</a><a href="/fr/regions">Régions</a><a href="/fr/produits">Produits</a><a href="/fr/secteurs">Secteurs</a><a href="/demande-de-devis">Demander un devis</a></div><div><h3>Autres renseignements</h3><a href="/fr/a-propos">À propos</a><a href="/fr/references-de-projets">Références de projets</a><a href="/fr/securite-et-conformite">Sécurité</a><a href="/fr/ressources">Ressources</a><a href="/fr/solutions-entreprises">Solutions pour entreprises</a></div><div><h3>Votre établissement</h3><p>La disponibilité, la méthode et le calendrier sont confirmés pour chaque adresse.</p></div></div><div class="footer-bottom"><span>© 2026 Superclean Canada Inc.</span><div><a href="/fr/confidentialite">Confidentialité</a><a href="/fr/conditions">Conditions</a><a href="/fr/preferences-de-communication">Préférences de communication</a></div></div></footer><div class="mobile-contact" aria-label="Contact rapide"><a href="tel:+18338778737">Appeler Superclean</a><a href="/demande-de-devis">Demander un devis ↗</a></div></body></html>'''
  dest=P/(fr.lstrip('/')+'.html');dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(content)
  # Equivalent EN page links directly to its French counterpart.
- old=P/(en.lstrip('/')+'.html');s=old.read_text();s=re.sub(r'<link rel="alternate" hreflang="(?:en-CA|fr-CA)"[^>]*>','',s)
+ old=P/('index.html' if en=='/' else en.lstrip('/')+'.html');s=old.read_text();s=re.sub(r'<link rel="alternate" hreflang="(?:en-CA|fr-CA)"[^>]*>','',s)
  s=s.replace('</head>',f'<link rel="alternate" hreflang="en-CA" href="https://superclean.ca{en}"><link rel="alternate" hreflang="fr-CA" href="https://superclean.ca{fr}"></head>')
  s=re.sub(r'(<a class="language-switch"[^>]*href=")[^"]+',lambda m:m[1]+fr,s);old.write_text(s)
 def intro(title,desc,service='',city='',en=None):
  figure=''
  if en:
-  h=(P/(en.lstrip('/')+'.html')).read_text();hero=re.search(r'<section class="page-intro.*?</section>',h,re.S)
+  h=(P/('index.html' if en=='/' else en.lstrip('/')+'.html')).read_text();hero=re.search(r'<section class="page-intro.*?</section>',h,re.S)
   f=re.search(r'<figure.*?</figure>',hero.group(),re.S) if hero else None
   if f:
    figure=f.group();figure=re.sub(r'alt="[^"]*"','alt="'+esc(service or title)+'"',figure)
@@ -153,9 +153,16 @@ for name in ['services-de-nettoyage','demande-de-devis']:
  s=re.sub(r'(<a[^>]*href="/(?:products|industries|about|case-studies|safety|resources|business-solutions|privacy|terms|consent)"[^>]*>)([^<]+)(</a>)',lambda m:m[1]+m[2]+(' (en anglais)' if '(en anglais)' not in m[2] else '')+m[3],s)
  p.write_text(s)
 exec(compile((ROOT/'scripts/build-french-catalogue.py').read_text(), 'build-french-catalogue.py', 'exec'))
+exec(compile((ROOT/'scripts/build-french-corporate.py').read_text(), 'build-french-corporate.py', 'exec'))
 # Sitemap: append only indexable French equivalents, never the noindex variants.
 p=P/'sitemap.xml';s=p.read_text();s=re.sub(r'<url>\s*<loc>https://superclean.ca/fr/.*?</url>','',s,flags=re.S)
 urls=''.join(f'<url><loc>https://superclean.ca{fr}</loc></url>' for en,fr in route_map.items() if policy(en).split(',')[0]=='index')
-s=s.replace('</urlset>',urls+'</urlset>');p.write_text(s)
+s=s.replace('</urlset>',urls+'</urlset>')
+seen=set()
+def unique_url(m):
+ loc=re.search(r'<loc>(.*?)</loc>',m[0]).group(1)
+ if loc in seen:return ''
+ seen.add(loc);return m[0]
+s=re.sub(r'<url>.*?</url>',unique_url,s,flags=re.S);p.write_text(s)
 (ROOT/'content/language-routes.json').write_text(json.dumps(route_map,ensure_ascii=False,indent=2)+'\n')
 print(f'Built {len(route_map)} French pages, including {len(services)} service categories, {len(regions)} regions and {len(cities)} city guides.')

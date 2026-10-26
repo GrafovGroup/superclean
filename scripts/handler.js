@@ -24,8 +24,8 @@ export default {
       return new Response(null, {status: 301, headers});
     }
     if (url.pathname.startsWith('/assets/') && env.ASSETS) return env.ASSETS.fetch(request);
-    const document = documents[normalized] || documents['/404'];
-    const status = documents[normalized] && normalized !== '/404' ? 200 : 404;
+    const document = documents[normalized] || documents[normalized.startsWith('/fr/') ? '/fr/404' : '/404'];
+    const status = documents[normalized] && !['/404', '/fr/404'].includes(normalized) ? 200 : 404;
     headers.set('Content-Type', document.type);
     headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
     if (url.hostname !== 'superclean.ca' || status === 404) headers.set('X-Robots-Tag', 'noindex, follow');

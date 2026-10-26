@@ -86,3 +86,5 @@ html[lang="fr-CA"] h1,html[lang="fr-CA"] h2,html[lang="fr-CA"] h3{overflow-wrap:
 
 .utility .wrap>span{white-space:nowrap}
 @media(max-width:360px){.utility .wrap>span{font-size:7px}.utility a{font-size:9px;gap:3px}.utility .phone{font-size:10px}}
+/* Longer French procurement labels must wrap on narrow screens. */
+html[lang="fr-CA"] .brand-band span { white-space: normal; overflow-wrap: anywhere; }

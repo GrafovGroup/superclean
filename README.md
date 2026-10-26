@@ -24,3 +24,6 @@ French service and location coverage includes 292 counterpart pages: 52 core ser
 Edit `content/services-fr.tsv`, `content/regions-fr.json` and `content/cities-fr.json`, `content/products-fr.tsv` and `content/industries-fr.tsv`, then run `python3 scripts/build-french.py` (Python 3 required only for regeneration). The generated HTML is committed, so normal Node builds require no Python. `content/language-routes.json` records all equivalent URLs.
 
 The owner confirmed live quote receipt in the inbox on October 26, 2026.
+
+### Complete French coverage
+All 343 English pages now have French counterparts (686 HTML pages total), including the full homepage, resources, business solutions, company information, policies and 404. French navigation stays French; language switches return to the exact English counterpart. Policy translations preserve the existing meaning. Run `python scripts/build-french.py` to regenerate and `npm run build && npm test` to validate.
