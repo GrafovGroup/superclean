@@ -166,3 +166,5 @@ def unique_url(m):
 s=re.sub(r'<url>.*?</url>',unique_url,s,flags=re.S);p.write_text(s)
 (ROOT/'content/language-routes.json').write_text(json.dumps(route_map,ensure_ascii=False,indent=2)+'\n')
 print(f'Built {len(route_map)} French pages, including {len(services)} service categories, {len(regions)} regions and {len(cities)} city guides.')
+# Apply shared bilingual presentation refinements after content generation.
+exec(compile((ROOT/'scripts/polish-ux.py').read_text(), str(ROOT/'scripts/polish-ux.py'), 'exec'))

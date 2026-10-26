@@ -10,7 +10,7 @@ for (const file of fs.readdirSync(publicDir, {recursive: true})) {
   if (!fs.statSync(absolute).isFile() || file.startsWith('assets/')) continue;
   if (file.endsWith('.html')) {
     documents[file === 'index.html' ? '/' : '/' + file.slice(0, -5)] = {body: fs.readFileSync(absolute, 'utf8'), type: 'text/html; charset=utf-8'};
-  } else if (['robots.txt', 'sitemap.xml'].includes(file)) {
+  } else if (['robots.txt', 'sitemap.xml', JSON.parse(fs.readFileSync(path.join(root, 'content/indexnow.json'), 'utf8')).keyFile].includes(file)) {
     documents['/' + file] = {body: fs.readFileSync(absolute, 'utf8'), type: file.endsWith('.xml') ? 'application/xml; charset=utf-8' : 'text/plain; charset=utf-8'};
   }
 }

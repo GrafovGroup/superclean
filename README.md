@@ -27,3 +27,6 @@ The owner confirmed live quote receipt in the inbox on October 26, 2026.
 
 ### Complete French coverage
 All 343 English pages now have French counterparts (686 HTML pages total), including the full homepage, resources, business solutions, company information, policies and 404. French navigation stays French; language switches return to the exact English counterpart. Policy translations preserve the existing meaning. Run `python scripts/build-french.py` to regenerate and `npm run build && npm test` to validate.
+
+### UX and indexing workflow
+`python scripts/build-french.py` also runs `scripts/polish-ux.py`, keeping the shortened bilingual homepage, five service groups, consistent menus and simplified quote forms reproducible. After a successful deployment, `node scripts/submit-indexnow.mjs` validates the live ownership file and submits only canonical sitemap URLs to Bing. An accepted submission is not a guarantee of indexing. Google uses the existing robots.txt sitemap declaration; explicit resubmission requires Search Console access.
