@@ -1,5 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import './refresh-imagery.mjs';
+import './refresh-city-imagery.mjs';
+import {execFileSync} from 'node:child_process';
+execFileSync('python3', [path.resolve(import.meta.dirname, 'improve-search-ux.py')], {stdio: 'inherit'});
 
 const root = path.resolve(import.meta.dirname, '..');
 const publicDir = path.join(root, 'public');

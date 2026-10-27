@@ -31,7 +31,7 @@ for path in P.rglob('*.html'):
  s=path.read_text();fr='<html lang="fr-CA"' in s
  # Match only the existing Services disclosure (other details are page content).
  s=re.sub(r'<details class="services-nav">.*?</details>',menu(fr),s,flags=re.S)
- if fr:s=s.replace('<a href="/fr/services">Services</a>',menu(True),1)
+ if fr:s=re.sub(r'(<nav id="main-nav"[^>]*>)(.*?)(</nav>)',lambda m:m[1]+m[2].replace('<a href="/fr/services">Services</a>',menu(True),1)+m[3],s,count=1,flags=re.S)
  path.write_text(s)
 for fr in [False,True]:
  path=P/('fr/services.html' if fr else 'services.html');s=path.read_text();base='/fr/services' if fr else '/services'

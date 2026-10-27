@@ -1,4 +1,4 @@
-"""Keep production captions off sales pages; retain photo licenses in linked credits."""
+"""Keep production captions off sales pages; retain photo licenses on dedicated credits pages."""
 from pathlib import Path
 import json,re,html
 P=Path(__file__).resolve().parent.parent/'public'
@@ -29,9 +29,7 @@ for p in P.rglob('*.html'):
  def caption(m):
   return '' if re.search(r'reference (?:image|photo)|Photo illustrative|Illustration (?:du service|de nettoyage)',m[0],re.I) else m[0]
  s=re.sub(r'<figcaption\b[^>]*>.*?</figcaption>',caption,s,flags=re.S)
- if 'class="image-credits-link"' not in s:
-  dest='/fr/credits-photos' if fr else '/image-credits';label='Crédits photos' if fr else 'Image credits'
-  s=s.replace('</footer>','<p class="image-credits-link small"><a href="'+dest+'">'+label+'</a></p></footer>')
+ s=re.sub(r'<p class="image-credits-link[^"]*">.*?</p>','',s,flags=re.S)
  p.write_text(s)
 print('Removed production image labels; photo attribution retained on bilingual credits pages.')
 # Keep the language switch alongside contact details, outside the main navigation.

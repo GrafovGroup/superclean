@@ -1,0 +1,1250 @@
+[
+  {
+    "service": "animal-removal",
+    "city": "mississauga",
+    "en": "/services/animal-removal/mississauga",
+    "fr": "/fr/services/gestion-et-retrait-danimaux-indesirables/mississauga"
+  },
+  {
+    "service": "animal-removal",
+    "city": "north-york",
+    "en": "/services/animal-removal/north-york",
+    "fr": "/fr/services/gestion-et-retrait-danimaux-indesirables/north-york"
+  },
+  {
+    "service": "animal-removal",
+    "city": "toronto",
+    "en": "/services/animal-removal/toronto",
+    "fr": "/fr/services/gestion-et-retrait-danimaux-indesirables/toronto"
+  },
+  {
+    "service": "animal-removal",
+    "city": "vaughan",
+    "en": "/services/animal-removal/vaughan",
+    "fr": "/fr/services/gestion-et-retrait-danimaux-indesirables/vaughan"
+  },
+  {
+    "service": "anti-graffiti-coating-and-sealing",
+    "city": "mississauga",
+    "en": "/services/anti-graffiti-coating-and-sealing/mississauga",
+    "fr": "/fr/services/revetements-antigraffitis-et-scellement/mississauga"
+  },
+  {
+    "service": "anti-graffiti-coating-and-sealing",
+    "city": "north-york",
+    "en": "/services/anti-graffiti-coating-and-sealing/north-york",
+    "fr": "/fr/services/revetements-antigraffitis-et-scellement/north-york"
+  },
+  {
+    "service": "anti-graffiti-coating-and-sealing",
+    "city": "toronto",
+    "en": "/services/anti-graffiti-coating-and-sealing/toronto",
+    "fr": "/fr/services/revetements-antigraffitis-et-scellement/toronto"
+  },
+  {
+    "service": "anti-graffiti-coating-and-sealing",
+    "city": "vaughan",
+    "en": "/services/anti-graffiti-coating-and-sealing/vaughan",
+    "fr": "/fr/services/revetements-antigraffitis-et-scellement/vaughan"
+  },
+  {
+    "service": "asbestos-abatement",
+    "city": "mississauga",
+    "en": "/services/asbestos-abatement/mississauga",
+    "fr": "/fr/services/travaux-de-desamiantage/mississauga"
+  },
+  {
+    "service": "asbestos-abatement",
+    "city": "north-york",
+    "en": "/services/asbestos-abatement/north-york",
+    "fr": "/fr/services/travaux-de-desamiantage/north-york"
+  },
+  {
+    "service": "asbestos-abatement",
+    "city": "toronto",
+    "en": "/services/asbestos-abatement/toronto",
+    "fr": "/fr/services/travaux-de-desamiantage/toronto"
+  },
+  {
+    "service": "asbestos-abatement",
+    "city": "vaughan",
+    "en": "/services/asbestos-abatement/vaughan",
+    "fr": "/fr/services/travaux-de-desamiantage/vaughan"
+  },
+  {
+    "service": "asbestos-compliance-consulting",
+    "city": "mississauga",
+    "en": "/services/asbestos-compliance-consulting/mississauga",
+    "fr": "/fr/services/accompagnement-en-gestion-de-lamiante/mississauga"
+  },
+  {
+    "service": "asbestos-compliance-consulting",
+    "city": "north-york",
+    "en": "/services/asbestos-compliance-consulting/north-york",
+    "fr": "/fr/services/accompagnement-en-gestion-de-lamiante/north-york"
+  },
+  {
+    "service": "asbestos-compliance-consulting",
+    "city": "toronto",
+    "en": "/services/asbestos-compliance-consulting/toronto",
+    "fr": "/fr/services/accompagnement-en-gestion-de-lamiante/toronto"
+  },
+  {
+    "service": "asbestos-compliance-consulting",
+    "city": "vaughan",
+    "en": "/services/asbestos-compliance-consulting/vaughan",
+    "fr": "/fr/services/accompagnement-en-gestion-de-lamiante/vaughan"
+  },
+  {
+    "service": "biomedical-waste-disposal",
+    "city": "mississauga",
+    "en": "/services/biomedical-waste-disposal/mississauga",
+    "fr": "/fr/services/gestion-des-dechets-biomedicaux/mississauga"
+  },
+  {
+    "service": "biomedical-waste-disposal",
+    "city": "north-york",
+    "en": "/services/biomedical-waste-disposal/north-york",
+    "fr": "/fr/services/gestion-des-dechets-biomedicaux/north-york"
+  },
+  {
+    "service": "biomedical-waste-disposal",
+    "city": "toronto",
+    "en": "/services/biomedical-waste-disposal/toronto",
+    "fr": "/fr/services/gestion-des-dechets-biomedicaux/toronto"
+  },
+  {
+    "service": "biomedical-waste-disposal",
+    "city": "vaughan",
+    "en": "/services/biomedical-waste-disposal/vaughan",
+    "fr": "/fr/services/gestion-des-dechets-biomedicaux/vaughan"
+  },
+  {
+    "service": "bridge-and-underpass-washing",
+    "city": "mississauga",
+    "en": "/services/bridge-and-underpass-washing/mississauga",
+    "fr": "/fr/services/lavage-de-ponts-et-de-passages-inferieurs/mississauga"
+  },
+  {
+    "service": "bridge-and-underpass-washing",
+    "city": "north-york",
+    "en": "/services/bridge-and-underpass-washing/north-york",
+    "fr": "/fr/services/lavage-de-ponts-et-de-passages-inferieurs/north-york"
+  },
+  {
+    "service": "bridge-and-underpass-washing",
+    "city": "toronto",
+    "en": "/services/bridge-and-underpass-washing/toronto",
+    "fr": "/fr/services/lavage-de-ponts-et-de-passages-inferieurs/toronto"
+  },
+  {
+    "service": "bridge-and-underpass-washing",
+    "city": "vaughan",
+    "en": "/services/bridge-and-underpass-washing/vaughan",
+    "fr": "/fr/services/lavage-de-ponts-et-de-passages-inferieurs/vaughan"
+  },
+  {
+    "service": "building-structure-cleaning",
+    "city": "mississauga",
+    "en": "/services/building-structure-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-structures-de-batiments/mississauga"
+  },
+  {
+    "service": "building-structure-cleaning",
+    "city": "north-york",
+    "en": "/services/building-structure-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-structures-de-batiments/north-york"
+  },
+  {
+    "service": "building-structure-cleaning",
+    "city": "toronto",
+    "en": "/services/building-structure-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-structures-de-batiments/toronto"
+  },
+  {
+    "service": "building-structure-cleaning",
+    "city": "vaughan",
+    "en": "/services/building-structure-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-structures-de-batiments/vaughan"
+  },
+  {
+    "service": "carpet-cleaning",
+    "city": "mississauga",
+    "en": "/services/carpet-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-tapis/mississauga"
+  },
+  {
+    "service": "carpet-cleaning",
+    "city": "north-york",
+    "en": "/services/carpet-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-tapis/north-york"
+  },
+  {
+    "service": "carpet-cleaning",
+    "city": "toronto",
+    "en": "/services/carpet-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-tapis/toronto"
+  },
+  {
+    "service": "carpet-cleaning",
+    "city": "vaughan",
+    "en": "/services/carpet-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-tapis/vaughan"
+  },
+  {
+    "service": "catch-basin-cleaning-and-disposal",
+    "city": "mississauga",
+    "en": "/services/catch-basin-cleaning-and-disposal/mississauga",
+    "fr": "/fr/services/nettoyage-de-puisards-et-evacuation-des-residus/mississauga"
+  },
+  {
+    "service": "catch-basin-cleaning-and-disposal",
+    "city": "north-york",
+    "en": "/services/catch-basin-cleaning-and-disposal/north-york",
+    "fr": "/fr/services/nettoyage-de-puisards-et-evacuation-des-residus/north-york"
+  },
+  {
+    "service": "catch-basin-cleaning-and-disposal",
+    "city": "toronto",
+    "en": "/services/catch-basin-cleaning-and-disposal/toronto",
+    "fr": "/fr/services/nettoyage-de-puisards-et-evacuation-des-residus/toronto"
+  },
+  {
+    "service": "catch-basin-cleaning-and-disposal",
+    "city": "vaughan",
+    "en": "/services/catch-basin-cleaning-and-disposal/vaughan",
+    "fr": "/fr/services/nettoyage-de-puisards-et-evacuation-des-residus/vaughan"
+  },
+  {
+    "service": "chimney-cleaning",
+    "city": "mississauga",
+    "en": "/services/chimney-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-cheminees/mississauga"
+  },
+  {
+    "service": "chimney-cleaning",
+    "city": "north-york",
+    "en": "/services/chimney-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-cheminees/north-york"
+  },
+  {
+    "service": "chimney-cleaning",
+    "city": "toronto",
+    "en": "/services/chimney-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-cheminees/toronto"
+  },
+  {
+    "service": "chimney-cleaning",
+    "city": "vaughan",
+    "en": "/services/chimney-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-cheminees/vaughan"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "mississauga",
+    "en": "/services/commercial-janitorial/mississauga",
+    "fr": "/fr/services/entretien-menager-commercial-et-de-bureaux/mississauga"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "north-york",
+    "en": "/services/commercial-janitorial/north-york",
+    "fr": "/fr/services/entretien-menager-commercial-et-de-bureaux/north-york"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "toronto",
+    "en": "/services/commercial-janitorial/toronto",
+    "fr": "/fr/services/entretien-menager-commercial-et-de-bureaux/toronto"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "vaughan",
+    "en": "/services/commercial-janitorial/vaughan",
+    "fr": "/fr/services/entretien-menager-commercial-et-de-bureaux/vaughan"
+  },
+  {
+    "service": "deep-fryer-cleaning",
+    "city": "mississauga",
+    "en": "/services/deep-fryer-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-friteuses-commerciales/mississauga"
+  },
+  {
+    "service": "deep-fryer-cleaning",
+    "city": "north-york",
+    "en": "/services/deep-fryer-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-friteuses-commerciales/north-york"
+  },
+  {
+    "service": "deep-fryer-cleaning",
+    "city": "toronto",
+    "en": "/services/deep-fryer-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-friteuses-commerciales/toronto"
+  },
+  {
+    "service": "deep-fryer-cleaning",
+    "city": "vaughan",
+    "en": "/services/deep-fryer-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-friteuses-commerciales/vaughan"
+  },
+  {
+    "service": "disinfecting",
+    "city": "mississauga",
+    "en": "/services/disinfecting/mississauga",
+    "fr": "/fr/services/desinfection/mississauga"
+  },
+  {
+    "service": "disinfecting",
+    "city": "north-york",
+    "en": "/services/disinfecting/north-york",
+    "fr": "/fr/services/desinfection/north-york"
+  },
+  {
+    "service": "disinfecting",
+    "city": "toronto",
+    "en": "/services/disinfecting/toronto",
+    "fr": "/fr/services/desinfection/toronto"
+  },
+  {
+    "service": "disinfecting",
+    "city": "vaughan",
+    "en": "/services/disinfecting/vaughan",
+    "fr": "/fr/services/desinfection/vaughan"
+  },
+  {
+    "service": "drain-and-sewer-line-maintenance",
+    "city": "mississauga",
+    "en": "/services/drain-and-sewer-line-maintenance/mississauga",
+    "fr": "/fr/services/entretien-de-drains-et-de-conduites-degout/mississauga"
+  },
+  {
+    "service": "drain-and-sewer-line-maintenance",
+    "city": "north-york",
+    "en": "/services/drain-and-sewer-line-maintenance/north-york",
+    "fr": "/fr/services/entretien-de-drains-et-de-conduites-degout/north-york"
+  },
+  {
+    "service": "drain-and-sewer-line-maintenance",
+    "city": "toronto",
+    "en": "/services/drain-and-sewer-line-maintenance/toronto",
+    "fr": "/fr/services/entretien-de-drains-et-de-conduites-degout/toronto"
+  },
+  {
+    "service": "drain-and-sewer-line-maintenance",
+    "city": "vaughan",
+    "en": "/services/drain-and-sewer-line-maintenance/vaughan",
+    "fr": "/fr/services/entretien-de-drains-et-de-conduites-degout/vaughan"
+  },
+  {
+    "service": "drone-cleaning",
+    "city": "mississauga",
+    "en": "/services/drone-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-par-drone/mississauga"
+  },
+  {
+    "service": "drone-cleaning",
+    "city": "north-york",
+    "en": "/services/drone-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-par-drone/north-york"
+  },
+  {
+    "service": "drone-cleaning",
+    "city": "toronto",
+    "en": "/services/drone-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-par-drone/toronto"
+  },
+  {
+    "service": "drone-cleaning",
+    "city": "vaughan",
+    "en": "/services/drone-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-par-drone/vaughan"
+  },
+  {
+    "service": "duct-cleaning",
+    "city": "mississauga",
+    "en": "/services/duct-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-conduits/mississauga"
+  },
+  {
+    "service": "duct-cleaning",
+    "city": "north-york",
+    "en": "/services/duct-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-conduits/north-york"
+  },
+  {
+    "service": "duct-cleaning",
+    "city": "toronto",
+    "en": "/services/duct-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-conduits/toronto"
+  },
+  {
+    "service": "duct-cleaning",
+    "city": "vaughan",
+    "en": "/services/duct-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-conduits/vaughan"
+  },
+  {
+    "service": "dumpster-bin-disposal",
+    "city": "mississauga",
+    "en": "/services/dumpster-bin-disposal/mississauga",
+    "fr": "/fr/services/bennes-et-evacuation-de-dechets/mississauga"
+  },
+  {
+    "service": "dumpster-bin-disposal",
+    "city": "north-york",
+    "en": "/services/dumpster-bin-disposal/north-york",
+    "fr": "/fr/services/bennes-et-evacuation-de-dechets/north-york"
+  },
+  {
+    "service": "dumpster-bin-disposal",
+    "city": "toronto",
+    "en": "/services/dumpster-bin-disposal/toronto",
+    "fr": "/fr/services/bennes-et-evacuation-de-dechets/toronto"
+  },
+  {
+    "service": "dumpster-bin-disposal",
+    "city": "vaughan",
+    "en": "/services/dumpster-bin-disposal/vaughan",
+    "fr": "/fr/services/bennes-et-evacuation-de-dechets/vaughan"
+  },
+  {
+    "service": "exhaust-hood-cleaning",
+    "city": "mississauga",
+    "en": "/services/exhaust-hood-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-hottes-et-de-systemes-dextraction-de-cuisine/mississauga"
+  },
+  {
+    "service": "exhaust-hood-cleaning",
+    "city": "north-york",
+    "en": "/services/exhaust-hood-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-hottes-et-de-systemes-dextraction-de-cuisine/north-york"
+  },
+  {
+    "service": "exhaust-hood-cleaning",
+    "city": "toronto",
+    "en": "/services/exhaust-hood-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-hottes-et-de-systemes-dextraction-de-cuisine/toronto"
+  },
+  {
+    "service": "exhaust-hood-cleaning",
+    "city": "vaughan",
+    "en": "/services/exhaust-hood-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-hottes-et-de-systemes-dextraction-de-cuisine/vaughan"
+  },
+  {
+    "service": "facility-maintenance",
+    "city": "mississauga",
+    "en": "/services/facility-maintenance/mississauga",
+    "fr": "/fr/services/entretien-dinstallations/mississauga"
+  },
+  {
+    "service": "facility-maintenance",
+    "city": "north-york",
+    "en": "/services/facility-maintenance/north-york",
+    "fr": "/fr/services/entretien-dinstallations/north-york"
+  },
+  {
+    "service": "facility-maintenance",
+    "city": "toronto",
+    "en": "/services/facility-maintenance/toronto",
+    "fr": "/fr/services/entretien-dinstallations/toronto"
+  },
+  {
+    "service": "facility-maintenance",
+    "city": "vaughan",
+    "en": "/services/facility-maintenance/vaughan",
+    "fr": "/fr/services/entretien-dinstallations/vaughan"
+  },
+  {
+    "service": "feminine-hygiene-disposal",
+    "city": "mississauga",
+    "en": "/services/feminine-hygiene-disposal/mississauga",
+    "fr": "/fr/services/gestion-des-dechets-dhygiene-feminine/mississauga"
+  },
+  {
+    "service": "feminine-hygiene-disposal",
+    "city": "north-york",
+    "en": "/services/feminine-hygiene-disposal/north-york",
+    "fr": "/fr/services/gestion-des-dechets-dhygiene-feminine/north-york"
+  },
+  {
+    "service": "feminine-hygiene-disposal",
+    "city": "toronto",
+    "en": "/services/feminine-hygiene-disposal/toronto",
+    "fr": "/fr/services/gestion-des-dechets-dhygiene-feminine/toronto"
+  },
+  {
+    "service": "feminine-hygiene-disposal",
+    "city": "vaughan",
+    "en": "/services/feminine-hygiene-disposal/vaughan",
+    "fr": "/fr/services/gestion-des-dechets-dhygiene-feminine/vaughan"
+  },
+  {
+    "service": "graffiti-removal",
+    "city": "mississauga",
+    "en": "/services/graffiti-removal/mississauga",
+    "fr": "/fr/services/enlevement-de-graffitis/mississauga"
+  },
+  {
+    "service": "graffiti-removal",
+    "city": "north-york",
+    "en": "/services/graffiti-removal/north-york",
+    "fr": "/fr/services/enlevement-de-graffitis/north-york"
+  },
+  {
+    "service": "graffiti-removal",
+    "city": "toronto",
+    "en": "/services/graffiti-removal/toronto",
+    "fr": "/fr/services/enlevement-de-graffitis/toronto"
+  },
+  {
+    "service": "graffiti-removal",
+    "city": "vaughan",
+    "en": "/services/graffiti-removal/vaughan",
+    "fr": "/fr/services/enlevement-de-graffitis/vaughan"
+  },
+  {
+    "service": "grease-trap-cleaning",
+    "city": "mississauga",
+    "en": "/services/grease-trap-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-bacs-a-graisse/mississauga"
+  },
+  {
+    "service": "grease-trap-cleaning",
+    "city": "north-york",
+    "en": "/services/grease-trap-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-bacs-a-graisse/north-york"
+  },
+  {
+    "service": "grease-trap-cleaning",
+    "city": "toronto",
+    "en": "/services/grease-trap-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-bacs-a-graisse/toronto"
+  },
+  {
+    "service": "grease-trap-cleaning",
+    "city": "vaughan",
+    "en": "/services/grease-trap-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-bacs-a-graisse/vaughan"
+  },
+  {
+    "service": "grounds-keeping",
+    "city": "mississauga",
+    "en": "/services/grounds-keeping/mississauga",
+    "fr": "/fr/services/entretien-des-espaces-exterieurs/mississauga"
+  },
+  {
+    "service": "grounds-keeping",
+    "city": "north-york",
+    "en": "/services/grounds-keeping/north-york",
+    "fr": "/fr/services/entretien-des-espaces-exterieurs/north-york"
+  },
+  {
+    "service": "grounds-keeping",
+    "city": "toronto",
+    "en": "/services/grounds-keeping/toronto",
+    "fr": "/fr/services/entretien-des-espaces-exterieurs/toronto"
+  },
+  {
+    "service": "grounds-keeping",
+    "city": "vaughan",
+    "en": "/services/grounds-keeping/vaughan",
+    "fr": "/fr/services/entretien-des-espaces-exterieurs/vaughan"
+  },
+  {
+    "service": "gum-removal",
+    "city": "mississauga",
+    "en": "/services/gum-removal/mississauga",
+    "fr": "/fr/services/enlevement-de-gomme-a-macher/mississauga"
+  },
+  {
+    "service": "gum-removal",
+    "city": "north-york",
+    "en": "/services/gum-removal/north-york",
+    "fr": "/fr/services/enlevement-de-gomme-a-macher/north-york"
+  },
+  {
+    "service": "gum-removal",
+    "city": "toronto",
+    "en": "/services/gum-removal/toronto",
+    "fr": "/fr/services/enlevement-de-gomme-a-macher/toronto"
+  },
+  {
+    "service": "gum-removal",
+    "city": "vaughan",
+    "en": "/services/gum-removal/vaughan",
+    "fr": "/fr/services/enlevement-de-gomme-a-macher/vaughan"
+  },
+  {
+    "service": "gym-cleaning",
+    "city": "mississauga",
+    "en": "/services/gym-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-centres-sportifs/mississauga"
+  },
+  {
+    "service": "gym-cleaning",
+    "city": "north-york",
+    "en": "/services/gym-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-centres-sportifs/north-york"
+  },
+  {
+    "service": "gym-cleaning",
+    "city": "toronto",
+    "en": "/services/gym-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-centres-sportifs/toronto"
+  },
+  {
+    "service": "gym-cleaning",
+    "city": "vaughan",
+    "en": "/services/gym-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-centres-sportifs/vaughan"
+  },
+  {
+    "service": "hazardous-waste-disposal",
+    "city": "mississauga",
+    "en": "/services/hazardous-waste-disposal/mississauga",
+    "fr": "/fr/services/gestion-des-dechets-dangereux/mississauga"
+  },
+  {
+    "service": "hazardous-waste-disposal",
+    "city": "north-york",
+    "en": "/services/hazardous-waste-disposal/north-york",
+    "fr": "/fr/services/gestion-des-dechets-dangereux/north-york"
+  },
+  {
+    "service": "hazardous-waste-disposal",
+    "city": "toronto",
+    "en": "/services/hazardous-waste-disposal/toronto",
+    "fr": "/fr/services/gestion-des-dechets-dangereux/toronto"
+  },
+  {
+    "service": "hazardous-waste-disposal",
+    "city": "vaughan",
+    "en": "/services/hazardous-waste-disposal/vaughan",
+    "fr": "/fr/services/gestion-des-dechets-dangereux/vaughan"
+  },
+  {
+    "service": "high-level-dusting",
+    "city": "mississauga",
+    "en": "/services/high-level-dusting/mississauga",
+    "fr": "/fr/services/depoussierage-en-hauteur/mississauga"
+  },
+  {
+    "service": "high-level-dusting",
+    "city": "north-york",
+    "en": "/services/high-level-dusting/north-york",
+    "fr": "/fr/services/depoussierage-en-hauteur/north-york"
+  },
+  {
+    "service": "high-level-dusting",
+    "city": "toronto",
+    "en": "/services/high-level-dusting/toronto",
+    "fr": "/fr/services/depoussierage-en-hauteur/toronto"
+  },
+  {
+    "service": "high-level-dusting",
+    "city": "vaughan",
+    "en": "/services/high-level-dusting/vaughan",
+    "fr": "/fr/services/depoussierage-en-hauteur/vaughan"
+  },
+  {
+    "service": "ice-management",
+    "city": "mississauga",
+    "en": "/services/ice-management/mississauga",
+    "fr": "/fr/services/gestion-de-la-glace-et-deglacage/mississauga"
+  },
+  {
+    "service": "ice-management",
+    "city": "north-york",
+    "en": "/services/ice-management/north-york",
+    "fr": "/fr/services/gestion-de-la-glace-et-deglacage/north-york"
+  },
+  {
+    "service": "ice-management",
+    "city": "toronto",
+    "en": "/services/ice-management/toronto",
+    "fr": "/fr/services/gestion-de-la-glace-et-deglacage/toronto"
+  },
+  {
+    "service": "ice-management",
+    "city": "vaughan",
+    "en": "/services/ice-management/vaughan",
+    "fr": "/fr/services/gestion-de-la-glace-et-deglacage/vaughan"
+  },
+  {
+    "service": "ice-rink-cleaning",
+    "city": "mississauga",
+    "en": "/services/ice-rink-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-darenas-et-de-patinoires/mississauga"
+  },
+  {
+    "service": "ice-rink-cleaning",
+    "city": "north-york",
+    "en": "/services/ice-rink-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-darenas-et-de-patinoires/north-york"
+  },
+  {
+    "service": "ice-rink-cleaning",
+    "city": "toronto",
+    "en": "/services/ice-rink-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-darenas-et-de-patinoires/toronto"
+  },
+  {
+    "service": "ice-rink-cleaning",
+    "city": "vaughan",
+    "en": "/services/ice-rink-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-darenas-et-de-patinoires/vaughan"
+  },
+  {
+    "service": "k9-detection",
+    "city": "mississauga",
+    "en": "/services/k9-detection/mississauga",
+    "fr": "/fr/services/services-de-detection-canine/mississauga"
+  },
+  {
+    "service": "k9-detection",
+    "city": "north-york",
+    "en": "/services/k9-detection/north-york",
+    "fr": "/fr/services/services-de-detection-canine/north-york"
+  },
+  {
+    "service": "k9-detection",
+    "city": "toronto",
+    "en": "/services/k9-detection/toronto",
+    "fr": "/fr/services/services-de-detection-canine/toronto"
+  },
+  {
+    "service": "k9-detection",
+    "city": "vaughan",
+    "en": "/services/k9-detection/vaughan",
+    "fr": "/fr/services/services-de-detection-canine/vaughan"
+  },
+  {
+    "service": "laser-cleaning",
+    "city": "mississauga",
+    "en": "/services/laser-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-au-laser/mississauga"
+  },
+  {
+    "service": "laser-cleaning",
+    "city": "north-york",
+    "en": "/services/laser-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-au-laser/north-york"
+  },
+  {
+    "service": "laser-cleaning",
+    "city": "toronto",
+    "en": "/services/laser-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-au-laser/toronto"
+  },
+  {
+    "service": "laser-cleaning",
+    "city": "vaughan",
+    "en": "/services/laser-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-au-laser/vaughan"
+  },
+  {
+    "service": "low-pressure-washing",
+    "city": "mississauga",
+    "en": "/services/low-pressure-washing/mississauga",
+    "fr": "/fr/services/lavage-a-basse-pression/mississauga"
+  },
+  {
+    "service": "low-pressure-washing",
+    "city": "north-york",
+    "en": "/services/low-pressure-washing/north-york",
+    "fr": "/fr/services/lavage-a-basse-pression/north-york"
+  },
+  {
+    "service": "low-pressure-washing",
+    "city": "toronto",
+    "en": "/services/low-pressure-washing/toronto",
+    "fr": "/fr/services/lavage-a-basse-pression/toronto"
+  },
+  {
+    "service": "low-pressure-washing",
+    "city": "vaughan",
+    "en": "/services/low-pressure-washing/vaughan",
+    "fr": "/fr/services/lavage-a-basse-pression/vaughan"
+  },
+  {
+    "service": "mat-cleaning",
+    "city": "mississauga",
+    "en": "/services/mat-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-tapis-dentree/mississauga"
+  },
+  {
+    "service": "mat-cleaning",
+    "city": "north-york",
+    "en": "/services/mat-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-tapis-dentree/north-york"
+  },
+  {
+    "service": "mat-cleaning",
+    "city": "toronto",
+    "en": "/services/mat-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-tapis-dentree/toronto"
+  },
+  {
+    "service": "mat-cleaning",
+    "city": "vaughan",
+    "en": "/services/mat-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-tapis-dentree/vaughan"
+  },
+  {
+    "service": "mobile-vehicle-cleaning-and-detailing",
+    "city": "mississauga",
+    "en": "/services/mobile-vehicle-cleaning-and-detailing/mississauga",
+    "fr": "/fr/services/nettoyage-mobile-et-esthetique-de-vehicules/mississauga"
+  },
+  {
+    "service": "mobile-vehicle-cleaning-and-detailing",
+    "city": "north-york",
+    "en": "/services/mobile-vehicle-cleaning-and-detailing/north-york",
+    "fr": "/fr/services/nettoyage-mobile-et-esthetique-de-vehicules/north-york"
+  },
+  {
+    "service": "mobile-vehicle-cleaning-and-detailing",
+    "city": "toronto",
+    "en": "/services/mobile-vehicle-cleaning-and-detailing/toronto",
+    "fr": "/fr/services/nettoyage-mobile-et-esthetique-de-vehicules/toronto"
+  },
+  {
+    "service": "mobile-vehicle-cleaning-and-detailing",
+    "city": "vaughan",
+    "en": "/services/mobile-vehicle-cleaning-and-detailing/vaughan",
+    "fr": "/fr/services/nettoyage-mobile-et-esthetique-de-vehicules/vaughan"
+  },
+  {
+    "service": "parking-lot-cleaning",
+    "city": "mississauga",
+    "en": "/services/parking-lot-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-stationnements/mississauga"
+  },
+  {
+    "service": "parking-lot-cleaning",
+    "city": "north-york",
+    "en": "/services/parking-lot-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-stationnements/north-york"
+  },
+  {
+    "service": "parking-lot-cleaning",
+    "city": "toronto",
+    "en": "/services/parking-lot-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-stationnements/toronto"
+  },
+  {
+    "service": "parking-lot-cleaning",
+    "city": "vaughan",
+    "en": "/services/parking-lot-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-stationnements/vaughan"
+  },
+  {
+    "service": "pest-control",
+    "city": "mississauga",
+    "en": "/services/pest-control/mississauga",
+    "fr": "/fr/services/gestion-parasitaire/mississauga"
+  },
+  {
+    "service": "pest-control",
+    "city": "north-york",
+    "en": "/services/pest-control/north-york",
+    "fr": "/fr/services/gestion-parasitaire/north-york"
+  },
+  {
+    "service": "pest-control",
+    "city": "toronto",
+    "en": "/services/pest-control/toronto",
+    "fr": "/fr/services/gestion-parasitaire/toronto"
+  },
+  {
+    "service": "pest-control",
+    "city": "vaughan",
+    "en": "/services/pest-control/vaughan",
+    "fr": "/fr/services/gestion-parasitaire/vaughan"
+  },
+  {
+    "service": "portable-toilet-cleaning",
+    "city": "mississauga",
+    "en": "/services/portable-toilet-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-toilettes-portatives/mississauga"
+  },
+  {
+    "service": "portable-toilet-cleaning",
+    "city": "north-york",
+    "en": "/services/portable-toilet-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-toilettes-portatives/north-york"
+  },
+  {
+    "service": "portable-toilet-cleaning",
+    "city": "toronto",
+    "en": "/services/portable-toilet-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-toilettes-portatives/toronto"
+  },
+  {
+    "service": "portable-toilet-cleaning",
+    "city": "vaughan",
+    "en": "/services/portable-toilet-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-toilettes-portatives/vaughan"
+  },
+  {
+    "service": "post-construction-cleaning",
+    "city": "mississauga",
+    "en": "/services/post-construction-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-apres-construction/mississauga"
+  },
+  {
+    "service": "post-construction-cleaning",
+    "city": "north-york",
+    "en": "/services/post-construction-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-apres-construction/north-york"
+  },
+  {
+    "service": "post-construction-cleaning",
+    "city": "toronto",
+    "en": "/services/post-construction-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-apres-construction/toronto"
+  },
+  {
+    "service": "post-construction-cleaning",
+    "city": "vaughan",
+    "en": "/services/post-construction-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-apres-construction/vaughan"
+  },
+  {
+    "service": "post-event-cleaning",
+    "city": "mississauga",
+    "en": "/services/post-event-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-apres-evenement/mississauga"
+  },
+  {
+    "service": "post-event-cleaning",
+    "city": "north-york",
+    "en": "/services/post-event-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-apres-evenement/north-york"
+  },
+  {
+    "service": "post-event-cleaning",
+    "city": "toronto",
+    "en": "/services/post-event-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-apres-evenement/toronto"
+  },
+  {
+    "service": "post-event-cleaning",
+    "city": "vaughan",
+    "en": "/services/post-event-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-apres-evenement/vaughan"
+  },
+  {
+    "service": "post-office-cleaning",
+    "city": "mississauga",
+    "en": "/services/post-office-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-bureaux-de-poste/mississauga"
+  },
+  {
+    "service": "post-office-cleaning",
+    "city": "north-york",
+    "en": "/services/post-office-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-bureaux-de-poste/north-york"
+  },
+  {
+    "service": "post-office-cleaning",
+    "city": "toronto",
+    "en": "/services/post-office-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-bureaux-de-poste/toronto"
+  },
+  {
+    "service": "post-office-cleaning",
+    "city": "vaughan",
+    "en": "/services/post-office-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-bureaux-de-poste/vaughan"
+  },
+  {
+    "service": "power-washing",
+    "city": "mississauga",
+    "en": "/services/power-washing/mississauga",
+    "fr": "/fr/services/lavage-a-pression/mississauga"
+  },
+  {
+    "service": "power-washing",
+    "city": "north-york",
+    "en": "/services/power-washing/north-york",
+    "fr": "/fr/services/lavage-a-pression/north-york"
+  },
+  {
+    "service": "power-washing",
+    "city": "toronto",
+    "en": "/services/power-washing/toronto",
+    "fr": "/fr/services/lavage-a-pression/toronto"
+  },
+  {
+    "service": "power-washing",
+    "city": "vaughan",
+    "en": "/services/power-washing/vaughan",
+    "fr": "/fr/services/lavage-a-pression/vaughan"
+  },
+  {
+    "service": "residential-cleaning",
+    "city": "mississauga",
+    "en": "/services/residential-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-dimmeubles-et-de-logements-entre-locataires/mississauga"
+  },
+  {
+    "service": "residential-cleaning",
+    "city": "north-york",
+    "en": "/services/residential-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-dimmeubles-et-de-logements-entre-locataires/north-york"
+  },
+  {
+    "service": "residential-cleaning",
+    "city": "toronto",
+    "en": "/services/residential-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-dimmeubles-et-de-logements-entre-locataires/toronto"
+  },
+  {
+    "service": "residential-cleaning",
+    "city": "vaughan",
+    "en": "/services/residential-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-dimmeubles-et-de-logements-entre-locataires/vaughan"
+  },
+  {
+    "service": "septic-tank-cleaning",
+    "city": "mississauga",
+    "en": "/services/septic-tank-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-et-vidange-de-fosses-septiques/mississauga"
+  },
+  {
+    "service": "septic-tank-cleaning",
+    "city": "north-york",
+    "en": "/services/septic-tank-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-et-vidange-de-fosses-septiques/north-york"
+  },
+  {
+    "service": "septic-tank-cleaning",
+    "city": "toronto",
+    "en": "/services/septic-tank-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-et-vidange-de-fosses-septiques/toronto"
+  },
+  {
+    "service": "septic-tank-cleaning",
+    "city": "vaughan",
+    "en": "/services/septic-tank-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-et-vidange-de-fosses-septiques/vaughan"
+  },
+  {
+    "service": "snow-removal",
+    "city": "mississauga",
+    "en": "/services/snow-removal/mississauga",
+    "fr": "/fr/services/deneigement-commercial/mississauga"
+  },
+  {
+    "service": "snow-removal",
+    "city": "north-york",
+    "en": "/services/snow-removal/north-york",
+    "fr": "/fr/services/deneigement-commercial/north-york"
+  },
+  {
+    "service": "snow-removal",
+    "city": "toronto",
+    "en": "/services/snow-removal/toronto",
+    "fr": "/fr/services/deneigement-commercial/toronto"
+  },
+  {
+    "service": "snow-removal",
+    "city": "vaughan",
+    "en": "/services/snow-removal/vaughan",
+    "fr": "/fr/services/deneigement-commercial/vaughan"
+  },
+  {
+    "service": "solar-panel-cleaning",
+    "city": "mississauga",
+    "en": "/services/solar-panel-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-panneaux-solaires/mississauga"
+  },
+  {
+    "service": "solar-panel-cleaning",
+    "city": "north-york",
+    "en": "/services/solar-panel-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-panneaux-solaires/north-york"
+  },
+  {
+    "service": "solar-panel-cleaning",
+    "city": "toronto",
+    "en": "/services/solar-panel-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-panneaux-solaires/toronto"
+  },
+  {
+    "service": "solar-panel-cleaning",
+    "city": "vaughan",
+    "en": "/services/solar-panel-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-panneaux-solaires/vaughan"
+  },
+  {
+    "service": "upholstery-and-mattress-cleaning",
+    "city": "mississauga",
+    "en": "/services/upholstery-and-mattress-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-de-mobilier-rembourre-et-de-matelas/mississauga"
+  },
+  {
+    "service": "upholstery-and-mattress-cleaning",
+    "city": "north-york",
+    "en": "/services/upholstery-and-mattress-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-de-mobilier-rembourre-et-de-matelas/north-york"
+  },
+  {
+    "service": "upholstery-and-mattress-cleaning",
+    "city": "toronto",
+    "en": "/services/upholstery-and-mattress-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-de-mobilier-rembourre-et-de-matelas/toronto"
+  },
+  {
+    "service": "upholstery-and-mattress-cleaning",
+    "city": "vaughan",
+    "en": "/services/upholstery-and-mattress-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-de-mobilier-rembourre-et-de-matelas/vaughan"
+  },
+  {
+    "service": "urinal-toilet-sanitizer",
+    "city": "mississauga",
+    "en": "/services/urinal-toilet-sanitizer/mississauga",
+    "fr": "/fr/services/entretien-des-dispositifs-sanitaires-pour-urinoirs-et-toilettes/mississauga"
+  },
+  {
+    "service": "urinal-toilet-sanitizer",
+    "city": "north-york",
+    "en": "/services/urinal-toilet-sanitizer/north-york",
+    "fr": "/fr/services/entretien-des-dispositifs-sanitaires-pour-urinoirs-et-toilettes/north-york"
+  },
+  {
+    "service": "urinal-toilet-sanitizer",
+    "city": "toronto",
+    "en": "/services/urinal-toilet-sanitizer/toronto",
+    "fr": "/fr/services/entretien-des-dispositifs-sanitaires-pour-urinoirs-et-toilettes/toronto"
+  },
+  {
+    "service": "urinal-toilet-sanitizer",
+    "city": "vaughan",
+    "en": "/services/urinal-toilet-sanitizer/vaughan",
+    "fr": "/fr/services/entretien-des-dispositifs-sanitaires-pour-urinoirs-et-toilettes/vaughan"
+  },
+  {
+    "service": "vape-recycling-disposal",
+    "city": "mississauga",
+    "en": "/services/vape-recycling-disposal/mississauga",
+    "fr": "/fr/services/collecte-et-gestion-des-dechets-de-vapotage/mississauga"
+  },
+  {
+    "service": "vape-recycling-disposal",
+    "city": "north-york",
+    "en": "/services/vape-recycling-disposal/north-york",
+    "fr": "/fr/services/collecte-et-gestion-des-dechets-de-vapotage/north-york"
+  },
+  {
+    "service": "vape-recycling-disposal",
+    "city": "toronto",
+    "en": "/services/vape-recycling-disposal/toronto",
+    "fr": "/fr/services/collecte-et-gestion-des-dechets-de-vapotage/toronto"
+  },
+  {
+    "service": "vape-recycling-disposal",
+    "city": "vaughan",
+    "en": "/services/vape-recycling-disposal/vaughan",
+    "fr": "/fr/services/collecte-et-gestion-des-dechets-de-vapotage/vaughan"
+  },
+  {
+    "service": "vehicle-fumigation",
+    "city": "mississauga",
+    "en": "/services/vehicle-fumigation/mississauga",
+    "fr": "/fr/services/fumigation-de-vehicules/mississauga"
+  },
+  {
+    "service": "vehicle-fumigation",
+    "city": "north-york",
+    "en": "/services/vehicle-fumigation/north-york",
+    "fr": "/fr/services/fumigation-de-vehicules/north-york"
+  },
+  {
+    "service": "vehicle-fumigation",
+    "city": "toronto",
+    "en": "/services/vehicle-fumigation/toronto",
+    "fr": "/fr/services/fumigation-de-vehicules/toronto"
+  },
+  {
+    "service": "vehicle-fumigation",
+    "city": "vaughan",
+    "en": "/services/vehicle-fumigation/vaughan",
+    "fr": "/fr/services/fumigation-de-vehicules/vaughan"
+  },
+  {
+    "service": "wind-turbine-cleaning",
+    "city": "mississauga",
+    "en": "/services/wind-turbine-cleaning/mississauga",
+    "fr": "/fr/services/nettoyage-deoliennes/mississauga"
+  },
+  {
+    "service": "wind-turbine-cleaning",
+    "city": "north-york",
+    "en": "/services/wind-turbine-cleaning/north-york",
+    "fr": "/fr/services/nettoyage-deoliennes/north-york"
+  },
+  {
+    "service": "wind-turbine-cleaning",
+    "city": "toronto",
+    "en": "/services/wind-turbine-cleaning/toronto",
+    "fr": "/fr/services/nettoyage-deoliennes/toronto"
+  },
+  {
+    "service": "wind-turbine-cleaning",
+    "city": "vaughan",
+    "en": "/services/wind-turbine-cleaning/vaughan",
+    "fr": "/fr/services/nettoyage-deoliennes/vaughan"
+  },
+  {
+    "service": "window-cleaning",
+    "city": "mississauga",
+    "en": "/services/window-cleaning/mississauga",
+    "fr": "/fr/services/lavage-de-vitres/mississauga"
+  },
+  {
+    "service": "window-cleaning",
+    "city": "north-york",
+    "en": "/services/window-cleaning/north-york",
+    "fr": "/fr/services/lavage-de-vitres/north-york"
+  },
+  {
+    "service": "window-cleaning",
+    "city": "toronto",
+    "en": "/services/window-cleaning/toronto",
+    "fr": "/fr/services/lavage-de-vitres/toronto"
+  },
+  {
+    "service": "window-cleaning",
+    "city": "vaughan",
+    "en": "/services/window-cleaning/vaughan",
+    "fr": "/fr/services/lavage-de-vitres/vaughan"
+  },
+  {
+    "service": "window-glazing",
+    "city": "mississauga",
+    "en": "/services/window-glazing/mississauga",
+    "fr": "/fr/services/travaux-de-vitrage/mississauga"
+  },
+  {
+    "service": "window-glazing",
+    "city": "north-york",
+    "en": "/services/window-glazing/north-york",
+    "fr": "/fr/services/travaux-de-vitrage/north-york"
+  },
+  {
+    "service": "window-glazing",
+    "city": "toronto",
+    "en": "/services/window-glazing/toronto",
+    "fr": "/fr/services/travaux-de-vitrage/toronto"
+  },
+  {
+    "service": "window-glazing",
+    "city": "vaughan",
+    "en": "/services/window-glazing/vaughan",
+    "fr": "/fr/services/travaux-de-vitrage/vaughan"
+  }
+]

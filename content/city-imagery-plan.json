@@ -1,0 +1,18 @@
+{
+  "purpose": "Unique service-relevant hero photos for every city service page, with shared imagery only between language counterparts.",
+  "page_pairs": 216,
+  "origin": "Original AI-generated illustrative photography; not records of completed client projects or exact photographed locations.",
+  "generator": "Built-in image generation tool",
+  "subjects": "city-image-subjects.json",
+  "routes": ["city-image-routes.json", "city-image-legacy-routes.json"],
+  "provenance": "city-image-provenance.jsonl",
+  "visual_variations": {
+    "toronto": "Contemporary dense urban business setting where relevant; wide establishing composition, overcast daylight, subject right, grey and warm oak materials.",
+    "mississauga": "Modern suburban business setting where relevant; three-quarter close-to-medium composition, soft morning light, subject left, light concrete and blue-grey accents.",
+    "north-york": "Older mixed-use commercial setting where relevant; medium-detail composition from a lower camera height, diffused light, brick and neutral textures.",
+    "vaughan": "Newer industrial or commercial business setting where relevant; medium-wide diagonal composition, late-afternoon light, centred subject, steel and pale stone textures."
+  },
+  "constraints": ["One distinct scene per page pair", "Service-appropriate equipment and setting", "Safe work practices", "No logos, readable text or watermarks", "No claims of exact location or completed projects", "English and French counterparts use the same photo"],
+  "delivery": {"format": "WebP", "maximum_dimensions": [1000, 750], "quality": 80},
+  "regeneration": "The build refreshes page image references from the route manifests. Keep originals separate from generic service images. Do not reintroduce old srcset references."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "service": "commercial-janitorial",
+    "city": "toronto",
+    "key": "toronto-night-cleaning",
+    "en": "/services/toronto-night-cleaning",
+    "fr": "/fr/services/nettoyage-de-nuit-toronto"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "aurora",
+    "key": "aurora-night-cleaning",
+    "en": "/services/aurora-night-cleaning",
+    "fr": "/fr/services/nettoyage-de-nuit-aurora"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "newmarket",
+    "key": "newmarket-office-cleaning",
+    "en": "/services/newmarket-office-cleaning",
+    "fr": "/fr/services/nettoyage-de-bureaux-newmarket"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "barrie",
+    "key": "barrie-office-cleaning",
+    "en": "/services/barrie-office-cleaning",
+    "fr": "/fr/services/nettoyage-de-bureaux-barrie"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "toronto",
+    "key": "toronto-office-cleaning",
+    "en": "/services/toronto-office-cleaning",
+    "fr": "/fr/services/nettoyage-de-bureaux-toronto"
+  },
+  {
+    "service": "exhaust-hood-cleaning",
+    "city": "nanaimo",
+    "key": "commercial-kitchen-exhaust-vent-and-hood-cleaning-in-nanaimo",
+    "en": "/services/commercial-kitchen-exhaust-vent-and-hood-cleaning-in-nanaimo",
+    "fr": "/fr/services/nettoyage-de-hottes-et-de-systemes-dextraction-de-cuisine-nanaimo"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "vancouver",
+    "key": "vancouver-commercial-cleaning",
+    "en": "/services/vancouver-commercial-cleaning",
+    "fr": "/fr/services/nettoyage-commercial-vancouver"
+  },
+  {
+    "service": "commercial-janitorial",
+    "city": "newmarket",
+    "key": "newmarket-night-cleaning",
+    "en": "/services/newmarket-night-cleaning",
+    "fr": "/fr/services/nettoyage-de-nuit-newmarket"
+  }
+]

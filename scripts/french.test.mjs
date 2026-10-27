@@ -43,9 +43,9 @@ test('French catalogue preserves model ranges and product imagery with translate
  const industryRoutes=Object.entries(routes).filter(([en])=>en.startsWith('/industries/'));
  assert.equal(industryRoutes.length,7);
  for(const [en,fr] of industryRoutes){
-  const h=read(fr);assert.ok(h.includes('/assets/industry-'+en.split('/').pop()+'-fr.svg'));
-  const svg=fs.readFileSync('public/assets/industry-'+en.split('/').pop()+'-fr.svg','utf8');
-  assert.ok(svg.includes('LES POINTS ESSENTIELS'));assert.ok(!svg.includes('SCOPE AT A GLANCE'));
+  const h=read(fr);const photo='/assets/photos/industry-'+en.split('/').pop()+'-original.webp';
+  assert.ok(h.includes(photo));assert.ok(read(en).includes(photo));
+  assert.ok(fs.existsSync('public'+photo));
   for(const [,url] of h.matchAll(/href="([^"]+)"/g))assert.ok(!url.startsWith('/services/'),fr+' -> '+url);
  }
 });

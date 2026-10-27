@@ -144,3 +144,10 @@ html[lang="fr-CA"] .home-hero h1{font-size:clamp(36px,4.1vw,58px)}
 .utility .wrap>.language-switch{margin-left:8px;padding:6px 10px;min-height:32px;min-width:36px;justify-content:center;border-left:1px solid #ffffff55;font-size:12px!important;font-weight:600;letter-spacing:.04em}
 .utility .wrap>a[href^="tel:"]{margin-left:auto}
 @media(max-width:420px){.utility .wrap>.language-switch{padding:6px 7px;margin-left:2px;min-width:30px;font-size:11px!important}.utility .wrap{gap:3px}}
+
+/* Practical service answers: readable on desktop and small screens. */
+#service-answers .three-col{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+#service-answers article{min-width:0;border-top:2px solid #0cc0df;padding-top:20px}
+#service-answers h3{line-height:1.35}
+#quote-next-steps{max-width:68ch;margin-bottom:28px}
+@media(max-width:850px){#service-answers .three-col{grid-template-columns:1fr;gap:24px}}
